@@ -1,5 +1,15 @@
 
-h1 {
-font-family: 'Dancing Script', cursive;
 
+
+
+
+.main-nav {
+display:inline-block;
+
+}
+
+
+h1,
+h2 {
+font-family: 'Dancing Script', cursive;
 }
