@@ -1,5 +1,11 @@
+/* Base element styles */
+* {
+  box-sizing: border-box;
+}
 
+body {
 
+}
 
 
 
@@ -9,12 +15,17 @@ display:inline-block;
 }
 
 
-h1,
-h2 {
+h1 {
 font-family: 'Dancing Script', cursive;
 }
 
+h2 {
+font-family: 'Shadows Into Light Two', cursive;
+}
 
+p {
+font-family: 'Source Sans Pro', sans-serif;
+}
 ul {
 list-style-type: none;
 padding: 0;
@@ -25,6 +36,5 @@ Margin: 0;
 
 }
 img {
-
-
+  width: 100%;
 }
