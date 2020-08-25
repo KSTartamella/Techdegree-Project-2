@@ -4,6 +4,12 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'segoe print';
+    color: black;
+    background: white;
 
 }
 
@@ -26,6 +32,7 @@ font-family: 'Shadows Into Light Two', cursive;
 p {
 font-family: 'Source Sans Pro', sans-serif;
 }
+
 ul {
 list-style-type: none;
 padding: 0;
@@ -34,7 +41,7 @@ Margin: 0;
 
 }
 
-}
+
 img {
-  width: 100%;
+  max-width: 100%;
 }
