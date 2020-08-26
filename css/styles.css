@@ -12,6 +12,22 @@ body {
     background: white;
 
 }
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: black;
+
+
+}
+a:hover {
+  color: #FF00FF;
+}
+
+
+
+
+
 
 header {
 padding: 5px;
@@ -21,7 +37,7 @@ background: lightgray;
 }
 
 .main-nav {
-display:inline-block;
+display:block;
 
 }
 
@@ -50,4 +66,11 @@ Margin: 0;
 
 img {
   max-width: 90%;
+}
+
+.name,
+.main-footer,
+.main-footer li {
+display: inline;
+
 }
