@@ -14,7 +14,9 @@ body {
 }
 
 header {
-padding:
+padding: 5px;
+margin: 10px;
+background: lightgray;
 
 }
 
@@ -24,11 +26,12 @@ display:inline-block;
 }
 
 
-h1 {
+h1,
+h2 {
 font-family: 'Dancing Script', cursive;
 }
 
-h2 {
+h3 {
 font-family: 'Shadows Into Light Two', cursive;
 }
 
