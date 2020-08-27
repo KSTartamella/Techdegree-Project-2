@@ -60,7 +60,6 @@ header {
   text-align: center;
   overflow: hidden;
   padding-top: 25px;
-
 }
 
 h1,
@@ -75,36 +74,37 @@ font-family: 'Shadows Into Light Two', cursive;
 
 p, li {
 font-family: 'Source Sans Pro', sans-serif;
-padding: 10px;
-margin: 10px;
+
 }
 
 ul {
 list-style-type: none;
-padding: 0;
-Margin: 0;
+
 
 }
 .container {
-background-color: blue;
-
+background-color: lightgray;
 }
 
 img {
   max-width: 80%;
 }
 
+
  #contact,
-.main-footer {
-
-background-color: lighthray;
-
+.main-footer,
+hr {
+background-color: lightgray;
 }
 
 .name,
-.main-footer,
- {
-
+.main-footer, {
 display: inline-block;
+}
 
+.main-footer {
+padding: 20px;
+display: flex;
+justify-content: space-between;
+text-align: center;
 }
