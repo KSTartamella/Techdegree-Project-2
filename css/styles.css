@@ -7,7 +7,6 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'segoe print';
     color: black;
     background: white;
 
@@ -17,27 +16,48 @@ body {
 a {
   text-decoration: none;
   color: black;
-
-
 }
+
 a:hover {
   color: #FF00FF;
 }
 
-
-
-
-
-
-header {
-padding: 5px;
-margin: 10px;
-background: lightgray;
-
-}
+/* Section Styles */
 
 .main-nav {
-display:block;
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav {
+    display: block;
+    margin-right: auto;
+    color: black;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: #FF00FF;
+}
+
+header {
+  text-align: center;
+    overflow: hidden;
+    padding-top: 25px;
 
 }
 
@@ -45,14 +65,17 @@ display:block;
 h1,
 h2 {
 font-family: 'Dancing Script', cursive;
+line-height: 1.6em;
 }
 
 h3 {
 font-family: 'Shadows Into Light Two', cursive;
 }
 
-p {
+p, li {
 font-family: 'Source Sans Pro', sans-serif;
+padding: 10px;
+margin: 10px;
 }
 
 ul {
@@ -68,9 +91,14 @@ img {
   max-width: 90%;
 }
 
+.main-footer {
+display: inline-block;
+
+}
+
 .name,
-.main-footer,
 .main-footer li {
-display: inline;
+float: right;
+display: inline-block;
 
 }
