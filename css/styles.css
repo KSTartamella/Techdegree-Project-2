@@ -46,6 +46,8 @@ a:hover {
 }
 .nav li {
   padding: 5px 10px 10px 10px;
+  border: solid 1px red;
+  background-color: white;
 }
 .nav a {
   transition: all .5s;
@@ -56,11 +58,10 @@ a:hover {
 
 header {
   text-align: center;
-    overflow: hidden;
-    padding-top: 25px;
+  overflow: hidden;
+  padding-top: 25px;
 
 }
-
 
 h1,
 h2 {
@@ -83,9 +84,11 @@ list-style-type: none;
 padding: 0;
 Margin: 0;
 
+}
+.container {
+background-color: blue;
 
 }
-
 
 img {
   max-width: 90%;
