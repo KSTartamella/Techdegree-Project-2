@@ -82,27 +82,24 @@ list-style-type: none;
 
 
 }
-.container {
+.container,
+.main-footer {
 background-color: lightgray;
+margin: 0, 10px 0 10px;
 }
 
+.col {
+margin:auto;
+padding: 10px;
+
+}
 img {
   max-width: 80%;
 }
 
 
- #contact,
-.main-footer,
-hr {
-background-color: lightgray;
-}
-
-.name,
-.main-footer, {
-display: inline-block;
-}
-
 .main-footer {
+border-top: dashed black 1px;
 padding: 20px;
 display: flex;
 justify-content: space-between;
