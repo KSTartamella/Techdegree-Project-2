@@ -55,7 +55,7 @@ a:hover {
 header {
   background-color: lightgray;
   text-align: center;
-  /* overflow: hidden; */
+  overflow: hidden;
   padding: 0 10px;
 
 }
@@ -141,13 +141,16 @@ padding: 25px 15px;
 
 }
 
-.header-container,
+/* .header-container,
 .header-container img {
  float: right;
  padding: 20px 15px;
+} */
+
+.col-marketing {
+ float: left;
+
 }
-
-
 .col-search {
   float: right;
 }
@@ -163,5 +166,17 @@ display: none;
   display:inline-block;
   padding: 10px 10px 10px 10px;
 }
+
+}
+
+
+
+
+/* Clearfix */
+
+.group::after {
+content: "";
+display: table;
+clear: both;
 
 }
