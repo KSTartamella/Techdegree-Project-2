@@ -149,12 +149,38 @@ padding: 25px 15px;
 
 .col-marketing {
  float: left;
+ width: 50%;
 
 }
 .col-search {
   float: right;
+  width: 50%;
 }
 
+.col-travel {
+ float: left;
+ width: 50%;
+}
+
+.col-map {
+float: right;
+width: 50%;
+}
+.col-photo {
+ float: left;
+ width: 50%;
+}
+
+.col-calculator {
+  float: right;
+  width: 50%;
+}
+
+.container {
+padding: 10px 10px;
+margin-top: 15px;
+
+}
 
 .footer-container li {
 display: none;
@@ -169,7 +195,28 @@ display: none;
 
 }
 
+@media (min-width: 1024px) {
+  .name {
+  float:left;
 
+  }
+  .main-nav,
+  .main-nav li {
+  display: inline-block;
+  float: right;
+  border: none;
+  color:inherit;
+  }
+
+  .nav li {
+  padding: 5px 5px;
+  margin: 0;
+  float:right;
+  background-color: lightgray;
+  }
+
+
+}
 
 
 /* Clearfix */
