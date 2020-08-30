@@ -141,17 +141,17 @@ justify-content: space-between;
 display: none;
 }
 
-/* .contact-name,
+.contact-name,
 .main-footer ul {
 display: inline;
-} */
+}
 
 .contact-name {
 float: left;
 }
 
-.contact-name li {
-  float: none;
+.main-footer li{
+  float: right;
 }
 
 
@@ -251,20 +251,28 @@ display: none;
 }
 
 .contact-name,
-.footer-nav,
 .footer-nav li {
-  display:inline;
+  display: inline;
   padding: 10px 10px 10px 10px;
   float:none;
 }
+
+
+.contact-name,
+.footer-nav,
+.footer-nav ul {
+display: inline;
+
+}
+
+/* trying to get the contact name and footer nav links to display inline */
+
 .contact-name {
   float: left;
 }
 
-.contact-name,
 .footer-nav ul {
-display: inline;
-
+  float: right;
 }
 }
 
@@ -309,11 +317,19 @@ margin: 0 auto;
 width: 33.3%;
 
 }
-.main-footer,
+
 .contact-name,
 .footer-nav ul {
 display: inline;
 
+}
+.contact-name {
+  float: left;
+}
+
+
+.main-footer ul {
+  float: right;
 }
 }
 
