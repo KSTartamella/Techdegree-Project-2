@@ -5,6 +5,7 @@
 
 body {
     margin: 0;
+    border: 0;
     padding: 0;
     text-align: center;
     color: black;
@@ -31,7 +32,7 @@ a:hover {
   margin-bottom: 15px;
   text-align: center;
 }
-.nav {
+.main-nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -40,23 +41,37 @@ a:hover {
   color: black;
 }
 
-.nav li {
+.main-nav li {
   padding: 10px 10px 10px 10px;
   margin: 5px 5px;
   background-color: white;
 }
-.nav a {
+.main-nav a {
   transition: all .5s;
 }
-.nav a:hover {
+.main-nav a:hover {
   color: #FF00FF;
 }
+ul {
+list-style-type: none;
+}
 
+
+li {
+list-style: none;
+font-weight: 600;
+text-transform: uppercase;
+padding: 25px;
+
+}
 header {
-  background-color: lightgray;
+  /* background-color: lightgray; */
+  background: cover;
   text-align: center;
   overflow: hidden;
-  padding: 0 10px;
+  padding: 10px 10px;
+  margin: 0;
+  border: none;
 
 }
 header p {
@@ -67,11 +82,12 @@ padding: 25px 15px 50px 15px;
 .name {
 color: #800080;
 font-family: 'Dancing Script', cursive;
+text-align: center;
 }
+
  h1,
  h2,
-.portfolio,
-h3 {
+ h3 {
 font-family: 'Shadows Into Light Two', cursive;
 }
 
@@ -80,9 +96,17 @@ font-family: 'Raleway', sans-serif;
 
 }
 
-ul {
-list-style-type: none;
+.main-content {
+background-color: white;
+
+
 }
+
+.responsie-profile {
+width: auto;
+height: auto;
+}
+
 
 .container,
 .container p {
@@ -92,9 +116,14 @@ border: 5px 5px;
 
 }
 
-.container,
-.main-footer {
-background-color: lightgray;
+.contact {
+/* background-color: lightgray; */
+border-top: 25px;
+}
+
+.main-footer,
+.footer-nav {
+/* background-color: lightgray; */
 }
 
 /* .col {
@@ -103,13 +132,12 @@ padding: 10px;
 
 } */
 img {
-  max-width: 75%;
+  max-width: 100%;
 }
 
 
 .main-footer {
-border-top: dashed black 1px;
-padding: 20px;
+/* padding: 20px; */
 display: flex;
 justify-content: space-between;
 text-align: center;
@@ -121,100 +149,130 @@ display: none;
 
 /* media queries */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .main-nav,
   .main-nav li {
   display: inline-block;
   border: none;
-  color:inherit;
-  }
-
-  .nav li {
   padding: 5px 5px;
   margin: 0;
-  background-color: lightgray;
+  text-align: center;
+
   }
 
 .portfolio,
-.portfolio h2 {
+.portfolio  {
 padding: 25px 15px;
+margin: 25px 25px;
+border: 25px;
+
+}
+main-content {
+background-color: white;
+}
+
+.responsie-profile {
+padding-top: 0;
+width: auto;
+height: auto;
 
 }
 
-/* .header-container,
+img {
+padding: 10px 10px;
+
+}
+
+.contact {
+max-width: 75%;
+margin: auto;
+padding: 0;
+width: 100%;
+}
+
+.name {
+color: #800080;
+font-family: 'Dancing Script', cursive;
+}
+.header-container,
 .header-container img {
  float: right;
  padding: 20px 15px;
-} */
-
+}
+/* add img back if it doesnt work */
 .col-marketing {
  float: left;
  width: 50%;
-
+ margin:auto;
 }
 .col-search {
   float: right;
   width: 50%;
+  margin:auto;
 }
 
 .col-travel {
  float: left;
  width: 50%;
+ margin:auto;
 }
 
 .col-map {
 float: right;
 width: 50%;
+margin:auto;
 }
 .col-photo {
  float: left;
  width: 50%;
+ margin:auto;
 }
 
 .col-calculator {
   float: right;
   width: 50%;
+  margin:auto;
 }
 
-.container {
-padding: 10px 10px;
-margin-top: 15px;
 
-}
-
-.footer-container li {
+.main-footer li {
 display: none;
 
 }
+
 
 .footer-nav,
 .footer-nav li {
   display:inline-block;
   padding: 10px 10px 10px 10px;
+  float:none;
 }
 
+
+
+@media  (min-width: 1024px) {
+
+header {
+display: flex;
+justify-content: space-between;
+
 }
+.name {
+float: left;
+}
+.main-nav {
+float: none;
+}
+.main-nav li {
+display: inline-block;
+margin: initial;
+align-items: center;
 
-@media (min-width: 1024px) {
-  .name {
-  float:left;
-
-  }
-  .main-nav,
-  .main-nav li {
-  display: inline-block;
-  float: right;
-  border: none;
-  color:inherit;
-  }
-
-  .nav li {
-  padding: 5px 5px;
-  margin: 0;
-  float:right;
-  background-color: lightgray;
-  }
-
+}
+.name,
+.main-nav li {
+  display: inline;
+}
 
 }
 
