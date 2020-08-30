@@ -278,8 +278,7 @@ display: inline;
 
 @media screen and (min-width: 1024px) {
 
-.header-container,
- {
+.header-container {
 display: inline;
 justify-content: space-between;
 
