@@ -110,13 +110,13 @@ height: auto;
 }
 
 
-.container,
+/* .container,
 .container p {
 padding: 5px 5px;
 border: 5px 5px;
 
 
-}
+} */
 
 .contact {
 /* background-color: lightgray; */
@@ -282,11 +282,11 @@ top: 5px;
 left: 5%;
 }
 
-/* .main-nav ul {
+.main-nav ul {
 position: absolute;
 top: 20px;
 right: 5%;
-  } */
+  }
 
 .header-container,
 .main-nav ul {
